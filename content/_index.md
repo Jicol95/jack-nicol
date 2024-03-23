@@ -1,7 +1,5 @@
 # Hello, my name is Jack 👋
 
-<img class="avatar" src="https://avatars.githubusercontent.com/u/19427656?v=4" alt="avatar">
-
 I’m a software engineer with a passion for distributed systems.
 
 Currently, you’ll find me as a Senior Engineer at Europe’s leading spend management solution, [Pleo](https://pleo.io) 💳. I work with Kotlin, Postgres, Kafka, Kubernetes, and more. My goal is to ensure businesses handle out-of-pocket spending and employee reimbursements with ease.
