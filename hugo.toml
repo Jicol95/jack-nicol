@@ -1,4 +1,4 @@
-baseURL = 'https://maverick.canhtran.me'
+baseURL = 'https://jacknicol.com'
 languageCode = 'en-us'
 title = 'Jack Nicol'
 paginate = 3
@@ -9,8 +9,8 @@ theme = 'maverick'
 
 [params]
   logo = '/assets/favicon.ico'
-  description = "A minimal hugo theme focus on content"
-  author = 'Calvin Tran'
+  description = "A laptop emoji"
+  author = 'Jack Nicol'
 
   [params.comments]
     githubRepo = 'canhtran/maverick'
@@ -19,15 +19,6 @@ theme = 'maverick'
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = "-110"
-  [[menu.main]]
-    identifier = "posts"
-    name = "Post"
-    url = "/posts/"
-    weight = -200
 
 [markup]
   [markup.goldmark.renderer]

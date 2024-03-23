@@ -3,11 +3,11 @@
   "title": "Jack Nicol",
   "home_page_url": "http://localhost:1313/",
   "feed_url": "http://localhost:1313/feed.json",
-  "description": "A minimal hugo theme focus on content",
+  "description": "A laptop emoji",
   "favicon": "http://localhost:1313//assets/favicon.ico",
   "expired": false,
   "author": {
-    "name": "Calvin Tran",
+    "name": "Jack Nicol",
     "url": "http://localhost:1313/"
   },
   "items": [
