@@ -9,7 +9,7 @@ theme = 'maverick'
 
 [params]
   logo = '/assets/favicon.ico'
-  description = "A laptop emoji"
+  description = "Hello, my name is Jack 👋 I’m a software engineer with a passion for distributed systems. Currently, you’ll find me as a Senior Engineer at Europe’s leading spend management solution, Pleo 💳. "
   author = 'Jack Nicol'
 
   [params.comments]
