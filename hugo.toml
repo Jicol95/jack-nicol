@@ -14,7 +14,7 @@ theme = 'maverick'
 
   [params.comments]
     githubRepo = 'Jicol95/jack-nicol'
-    theme = 'github-light'
+    theme = 'github-dark'
 
 
 [menu]
