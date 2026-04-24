@@ -35,7 +35,7 @@ jobs:
           action: "upload"
           app_location: "/"
           api_location: ""
-          output_location: "public"
+          output_location: ""
           app_build_command: "hugo"
           skip_app_build: false
 
