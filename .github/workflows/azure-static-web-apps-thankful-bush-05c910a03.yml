@@ -26,8 +26,6 @@ jobs:
           wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz
           tar -xzf hugo.tar.gz
           sudo mv hugo /usr/local/bin/hugo
-      - name: Build
-        run: hugo
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
@@ -35,10 +33,11 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_THANKFUL_BUSH_05C910A03 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "public"
+          app_location: "/"
           api_location: ""
-          output_location: ""
-          skip_app_build: true
+          output_location: "public"
+          app_build_command: "hugo"
+          skip_app_build: false
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
