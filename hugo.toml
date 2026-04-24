@@ -13,12 +13,16 @@ theme = 'maverick'
   author = 'Jack Nicol'
 
   [params.comments]
-    githubRepo = 'canhtran/maverick'
+    githubRepo = 'Jicol95/jack-nicol'
     theme = 'github-light'
 
 
 [menu]
   [[menu.main]]
+    identifier = "posts"
+    name = "Post"
+    url = "/posts/"
+    weight = -200
 
 [markup]
   [markup.goldmark.renderer]
